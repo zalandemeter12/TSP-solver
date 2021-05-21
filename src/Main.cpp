@@ -9,8 +9,8 @@ int main()
     int width = 800;
     int height = 800;
     double scaling = 15;
-    double transX = 175;
-    double transY = 75;
+    double transX = 400;
+    double transY = 0;
     sf::RenderWindow window(sf::VideoMode(width, height), "Graph Viewer");
 
     TSPsolver solver;
