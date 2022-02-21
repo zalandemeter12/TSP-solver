@@ -1,9 +1,9 @@
 # TSP-Solver
-## Feladat specifikáció 
-Az utazó ügynök probléma megoldása Simulated Annealing módszerrel. Az algoritmus kimenete az SFML grafikus könyvtárral van megjelenítve. A solver az src/TSPsolver.cpp és az include/TSPsolver.h fájlban van megvalósítva. A csomópontok x,y koordinátákkal vannak tárolva és az addNode függvénnyel lehet őket hozzáadni a solverhez. A solve függvénnyel lehet lefuttatni az algoritmust. A getNodes függvény std::vector-ként adja vissza a csomópontokat. 
+## Specification
+Solving the traveling salesman problem using Simulated Annealing. The output of the algorithm is represented by the SFML graphical library. The solver is implemented in src/TSPsolver.cpp and include/TSPsolver.h. The nodes are stored with x,y coordinates and can be added to the solver with the addNode function. The solve function is used to run the algorithm. The getNodes function returns the nodes as std::vectors. 
 
-## Futási eredmények
+## Results
 ### Raw input:
-![enter image description here](https://i.imgur.com/QO0yZ2b.png)
+![Raw input](https://i.imgur.com/QO0yZ2b.png)
 ### Simulated Annealing output:
-![enter image description here](https://i.imgur.com/vxAqOHj.png)
+![Simulated Annealing output](https://i.imgur.com/vxAqOHj.png)
